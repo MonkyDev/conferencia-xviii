@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{ border-bottom: 1px solid #3498DB;} 
+
+/*fuentes GOOGLE*/
+@font-face{
+	font-family: 'Rajdhani-Bold';
+	src: url("bootstrap4/fonts/Rajdhani-Bold.ttf");
+}
+@font-face{
+	font-family: 'Rajdhani-SemiBold';
+	src: url("bootstrap4/fonts/Rajdhani-SemiBold.ttf");
+}
+@font-face{
+	font-family: 'Rajdhani-Light';
+	src: url("bootstrap4/fonts/Rajdhani-Light.ttf");
+}
+@font-face{
+	font-family: 'Rajdhani-Medium';
+	src: url("bootstrap4/fonts/Rajdhani-Medium.ttf");
+}
+
+
+.y{border-right: 1px solid #3498DB;}
+
+.primary{
+	background-color: #F1F1F1; 
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.styleClass{
+	margin-top: 20px; 
+	padding: .5%; 
+	width: 100%;
+}
+
+.carousel-item{
+	height: 70vh; 
+	border-radius: 10px;
+}
+
+.historia>h2{
+	color: #3498DB;
+	font-family: 'Rajdhani-Bold';
+}
+
+.comnts{overflow-y: hidden;}
+
+.textCar h5{color: #858585;}
+
+.patroBack{background-color: #F1F1F1;}
+
+.space{margin-top: 2%;}
+
+.spacePatro{margin-right: 4%;}
+
+.backScreen{
+	top: 0;
+   	left: 0;
+   	right: 0;
+   	bottom: 0;
+   	margin: 0;
+	display: none;
+	background-color: #333;
+	opacity: 0.5;
+	position: fixed;
+	z-index: 999;
+	transition: all 1s;
+}
+
+.window{
+	background-color:#FFF;
+	display:none;
+	z-index:1001;
+	opacity:1;
+	position:absolute;
+	top:55%;
+	left:50%;
+	border-radius:5px;
+	box-shadow:#666 3px 3px 3px;
+}
+
+.btn-video{display: none;}
